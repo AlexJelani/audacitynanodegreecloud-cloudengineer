@@ -18,8 +18,8 @@ For instructions on running the code, please consult the README in each folder.
 
 This is the list of examples:
 
-* [01-hello-world](code/01-hello-world) - Terraform "Hello, World": Example of how to deploy a single server on AWS (Amazon Web Services) using the shortest script.
-* [02-one-server](code/02-one-server) - Terraform One Server: Example of how deploy a single server on AWS (Amazon Web Services).
+* [01-hello-world](code/01-launch-ec2-instance) - Terraform "Hello, World": Example of how to deploy a single server on AWS (Amazon Web Services) using the shortest script.
+* [02-one-server](code/02-create-ebs-volume) - Terraform One Server: Example of how deploy a single server on AWS (Amazon Web Services).
 * [03-one-webserver](code/03-one-webserver) - Terraform Web Server: Example of how deploy a single web server on AWS (Amazon Web Services). The web server returns "Hello, World" for the URL `/` listening on port 8080.
 * [04-one-webserver-with-vars](code/04-one-webserver-with-vars) - Terraform Web Server with vars: Example of how deploy a single web server on AWS (Amazon Web Services). The web server returns "Hello, World" for the URL `/` listening on port 8080, which is defined as a variable.
 * [05-cluster-webserver](code/05-cluster-webserver) - Terraform Cluster Web Server: Example of how deploy a cluster of web servers on AWS (Amazon Web Services) using EC2 and Auto Scaling, as well as a load balancer using ELB. The cluster of web servers returns "Hello, World" for the URL `/`. The load balancer listens on port 80.

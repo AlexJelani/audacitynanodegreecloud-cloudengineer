@@ -1,3 +1,11 @@
 .terraform
 *.tfstate
 *.tfstate.backup
+/.idea/.gitignore
+/code/01-launch-ec2-instance/.terraform.lock.hcl
+/code/02-create-ebs-volume/.terraform.lock.hcl
+/.idea/audacitynanodegreecloud-developer.iml
+/.idea/aws.xml
+/.idea/cody_history.xml
+/.idea/modules.xml
+/.idea/vcs.xml
