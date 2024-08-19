@@ -10,3 +10,4 @@
 /.idea/modules.xml
 /.idea/vcs.xml
 /code/03-module-vpc/.terraform.lock.hcl
+/code/04-basic-lambda-function/.terraform.lock.hcl

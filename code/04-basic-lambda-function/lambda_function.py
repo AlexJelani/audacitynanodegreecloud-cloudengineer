@@ -1,3 +1,5 @@
+import logging
+
 def lambda_handler(event, context):
     """
     This function is the entry point for the Lambda function.
@@ -11,8 +13,13 @@ def lambda_handler(event, context):
 
     :return: A dictionary with the status code and a response body.
     """
+    # Configure logging
+    logging.basicConfig(level=logging.INFO)
+
     # Log the event data for debugging
-    print("Received event:", event)
+    logging.info("value1=%s", event.get('key1'))
+    logging.info("value2=%s", event.get('key2'))
+    logging.info("value3=%s", event.get('key3'))
 
     # Define the response
     response = {
@@ -20,5 +27,6 @@ def lambda_handler(event, context):
         'body': 'Hello, Terraform! Your Lambda function executed successfully.'
     }
 
-    # Return the response
-    return response
+    # Return the response or the specific key if required
+    return response  # or return event.get('key1') if that's what you want to return
+
