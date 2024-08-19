@@ -9,3 +9,4 @@
 /.idea/cody_history.xml
 /.idea/modules.xml
 /.idea/vcs.xml
+/code/03-module-vpc/.terraform.lock.hcl

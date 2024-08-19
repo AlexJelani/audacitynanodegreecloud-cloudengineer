@@ -21,7 +21,7 @@ This is the list of examples:
 * [01-hello-world](code/01-launch-ec2-instance) - Terraform "Hello, World": Example of how to deploy a single server on AWS (Amazon Web Services) using the shortest script.
 * [02-one-server](code/02-create-ebs-volume) - Terraform One Server: Example of how deploy a single server on AWS (Amazon Web Services).
 * [03-one-webserver](code/03-module-vpc) - Terraform Web Server: Example of how deploy a single web server on AWS (Amazon Web Services). The web server returns "Hello, World" for the URL `/` listening on port 8080.
-* [04-one-webserver-with-vars](code/04-one-webserver-with-vars) - Terraform Web Server with vars: Example of how deploy a single web server on AWS (Amazon Web Services). The web server returns "Hello, World" for the URL `/` listening on port 8080, which is defined as a variable.
+* [04-one-webserver-with-vars](code/04-basic-lambda-function) - Terraform Web Server with vars: Example of how deploy a single web server on AWS (Amazon Web Services). The web server returns "Hello, World" for the URL `/` listening on port 8080, which is defined as a variable.
 * [05-cluster-webserver](code/05-cluster-webserver) - Terraform Cluster Web Server: Example of how deploy a cluster of web servers on AWS (Amazon Web Services) using EC2 and Auto Scaling, as well as a load balancer using ELB. The cluster of web servers returns "Hello, World" for the URL `/`. The load balancer listens on port 80.
 * [06-create-s3](code/06-create-s3) - Terraform Create S3: Example of how deploy the creation of a S3 bucket on AWS (Amazon Web Services).
 * [07-terraform-state](code/07-terraform-state) - Terraform State: Example of how to store the information about what infrastructure has been created on AWS (Amazon Web Services).

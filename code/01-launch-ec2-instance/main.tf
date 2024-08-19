@@ -1,5 +1,5 @@
 provider "aws" {
-  profile = "audacitycloud-developer"
+  profile = "myAdmin"
   region  = "us-east-1"
 }
 
