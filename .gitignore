@@ -12,3 +12,5 @@
 /code/03-module-vpc/.terraform.lock.hcl
 /code/04-basic-lambda-function/.terraform.lock.hcl
 /code/05-create-lambda-function-with-S3bucket/.terraform.lock.hcl
+/code/06-create-s3-with-sampletext/.terraform.lock.hcl
+/code/07-create-dynamodbtable/.terraform.lock.hcl
