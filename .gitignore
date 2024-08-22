@@ -2,17 +2,18 @@
 *.tfstate
 *.tfstate.backup
 /.idea/.gitignore
-/code/01-launch-ec2-instance/.terraform.lock.hcl
-/code/02-create-ebs-volume/.terraform.lock.hcl
+/AWS Cloud Fundamentals/01-launch-ec2-instance/.terraform.lock.hcl
+/AWS Cloud Fundamentals/02-create-ebs-volume/.terraform.lock.hcl
 /.idea/audacitynanodegreecloud-developer.iml
 /.idea/aws.xml
 /.idea/cody_history.xml
 /.idea/modules.xml
 /.idea/vcs.xml
-/code/03-module-vpc/.terraform.lock.hcl
-/code/04-basic-lambda-function/.terraform.lock.hcl
-/code/05-create-lambda-function-with-S3bucket/.terraform.lock.hcl
-/code/06-create-s3-with-sampletext/.terraform.lock.hcl
-/code/07-create-dynamodbtable/.terraform.lock.hcl
-/code/08-create-a-noSQLdatabase/.terraform.lock.hcl
-/code/08-create-a-noSQLdatabase/.terraform.tfstate.lock.info
+/AWS Cloud Fundamentals/03-module-vpc/.terraform.lock.hcl
+/AWS Cloud Fundamentals/04-basic-lambda-function/.terraform.lock.hcl
+/AWS Cloud Fundamentals/05-create-lambda-function-with-S3bucket/.terraform.lock.hcl
+/AWS Cloud Fundamentals/06-create-s3-with-sampletext/.terraform.lock.hcl
+/AWS Cloud Fundamentals/07-create-dynamodbtable/.terraform.lock.hcl
+/AWS Cloud Fundamentals/08-create-a-noSQLdatabase/.terraform.lock.hcl
+/AWS Cloud Fundamentals/08-create-a-noSQLdatabase/.terraform.tfstate.lock.info
+/AWS Cloud Fundamentals/09-create-a-MySQLDatabase/.terraform.lock.hcl
