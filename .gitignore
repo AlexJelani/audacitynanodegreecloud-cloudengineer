@@ -14,3 +14,5 @@
 /code/05-create-lambda-function-with-S3bucket/.terraform.lock.hcl
 /code/06-create-s3-with-sampletext/.terraform.lock.hcl
 /code/07-create-dynamodbtable/.terraform.lock.hcl
+/code/08-create-a-noSQLdatabase/.terraform.lock.hcl
+/code/08-create-a-noSQLdatabase/.terraform.tfstate.lock.info
