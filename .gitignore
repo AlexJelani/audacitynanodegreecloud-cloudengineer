@@ -18,3 +18,5 @@
 /AWS Cloud Fundamentals/08-create-a-noSQLdatabase/.terraform.tfstate.lock.info
 /AWS Cloud Fundamentals/09-create-a-MySQLDatabase/.terraform.lock.hcl
 /AWS Cloud Fundamentals/10-create-S3website-with-CloudFront/.terraform.lock.hcl
+/AWS Cloud Fundamentals/11-create-autoscaling-group-launch-template/.terraform.lock.hcl
+/AWS Cloud Fundamentals/11-create-autoscaling-group-launch-template/.terraform.tfstate.lock.info
