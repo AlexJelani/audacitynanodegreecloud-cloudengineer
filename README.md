@@ -30,7 +30,7 @@ This is the list of examples:
 * [10-multi-repo-example](AWS Cloud Fundamentals/10-create-S3website-with-CloudFront) - Terraform Muti Repo: Example that contains a multi repo example of a Terraform file on AWS (Amazon Web Services). It shows how to develop (not duplicating code) web server clusters in different environments using a module in another repo in order to use different version of the module in the environments.
 * [11-loops-example](AWS Cloud Fundamentals/11.1-create-a-load-balancer-with-defaultvpc) - Terraform Loops: Example that contains the loops example of a Terraform file on AWS (Amazon Web Services).
 * [12-if-statements-example](AWS Cloud Fundamentals/12-create-an-sns-alert) - Terraform If-Statements & If-Else-Statements: Example that contains an If-Statements and If-Else-Statements example of a Terraform file on AWS (Amazon Web Services).
-* [13-if-else-statements-example](AWS Cloud Fundamentals/13-if-else-statements-example) - Terraform Simple If-Else-Statement: Example that contains the simple If-Else-Statement example of a Terraform file on AWS (Amazon Web Services).
+* [13-if-else-statements-example](AWS Cloud Fundamentals/13-create-sqs-queue-terraform) - Terraform Simple If-Else-Statement: Example that contains the simple If-Else-Statement example of a Terraform file on AWS (Amazon Web Services).
 * [14-zero-downtime-deployment](AWS Cloud Fundamentals/14-zero-downtime-deployment) - Terraform Zero-Downtime Deployment: Example that contains a zero-downtime deployment example of a Terraform file on AWS (Amazon Web Services).
 
 ## License
