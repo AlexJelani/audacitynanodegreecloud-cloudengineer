@@ -25,3 +25,4 @@
 /AWS Cloud Fundamentals/12-create-an-sns-alert/.terraform.lock.hcl
 /AWS Cloud Fundamentals/13-create-sqs-queue-terraform/.terraform.lock.hcl
 /AWS Cloud Fundamentals/14-create-cluster-fargate/.terraform.lock.hcl
+/AWS Cloud Fundamentals/15-aws-cloudtrail-module/.terraform.lock.hcl
