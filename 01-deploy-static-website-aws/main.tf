@@ -32,14 +32,16 @@ resource "aws_s3_bucket_public_access_block" "website_bucket_public_access_block
 }
 
 # Upload website files to S3
-resource "aws_s3_bucket_object" "website_files" {
+# Upload website files to S3
+resource "aws_s3_object" "website_files" {
   for_each = fileset("${path.module}/s3", "**/*")
 
-  bucket_name = aws_s3_bucket.website_bucket.id
-  key         = each.value
-  source      = "${path.module}/s3/${each.value}"
-  acl         = "public-read"  # Object-level ACL is still allowed
+  bucket = aws_s3_bucket.website_bucket.id
+  key    = each.value
+  source = "${path.module}/s3/${each.value}"
+  acl    = "public-read" # Object-level ACL is still allowed
 }
+
 
 # S3 Bucket Policy for public access
 resource "aws_s3_bucket_policy" "website_policy" {
