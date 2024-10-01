@@ -11,6 +11,6 @@ variable "bucket_name" {
 }
 variable "profile" {
   description = "The AWS profile to use"
-  type = string
-  default = "myAdmin"
+  type        = string
+  default     = "myAdmin"
 }
