@@ -1,10 +1,37 @@
-# Terraform examples on AWS (Amazon Web Services)
+# AWS Cloud Developer Nanodegree Overview
 
-Terraform is used to create, manage, and update infrastructure resources such as physical machines, VMs, network switches, containers, and more. Almost any infrastructure type can be represented as a resource in Terraform.
+## Program Description
+The AWS Cloud Developer Nanodegree program focuses on teaching developers how to design and deploy applications in the AWS cloud environment. It covers key cloud concepts, services, and technologies to help you effectively build scalable and efficient cloud applications.
 
-This repo contains [Terraform](https://www.terraform.io/) code examples on AWS (Amazon Web Services).
+## Key Learning Outcomes
+- **AWS Fundamentals**: Understand the foundational concepts of cloud computing and how AWS services can be utilized in application development.
+- **Application Development**: Learn to design and deploy applications using AWS services such as EC2, S3, RDS, and Lambda.
+- **Serverless Architecture**: Gain skills in building serverless applications using AWS Lambda and other serverless technologies.
+- **CI/CD Practices**: Implement continuous integration and continuous deployment (CI/CD) practices using AWS Developer tools to automate deployment processes.
+- **Infrastructure as Code**: Use tools like AWS CloudFormation and Terraform to manage cloud resources through code.
+- **Security Best Practices**: Understand security best practices for managing cloud environments and protecting applications and data.
 
-These examples are based in the book *[Terraform: Up and Running](http://www.terraformupandrunning.com)* by [Yevgeniy Brikman](http://www.ybrikman.com).
+## Projects
+The program typically includes hands-on projects that allow you to apply what you've learned in real-world scenarios, such as:
+- Building a fully functional web application hosted on AWS.
+- Implementing CI/CD pipelines for automated deployment.
+- Developing serverless applications using AWS services.
+
+## Target Audience
+The program is designed for:
+- Aspiring cloud developers looking to gain practical skills in AWS.
+- Software developers who want to transition to cloud application development.
+- Individuals seeking to enhance their cloud computing knowledge for career advancement.
+
+## Prerequisites
+- Basic understanding of programming concepts (preferably in Python).
+- Familiarity with web development concepts can be beneficial.
+
+## Conclusion
+The AWS Cloud Developer Nanodegree aims to provide you with the tools and knowledge to excel in cloud development, preparing you for roles that involve building and managing applications in the cloud. By completing this program, you will be well-equipped to tackle cloud-based projects and contribute effectively to your organization’s cloud strategy.
+
+For specific details, it's always best to check the [Udacity website](https://www.udacity.com) directly, as course offerings and content may vary.
+
 
 ## Quick start
 
